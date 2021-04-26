@@ -123,7 +123,7 @@ def help(update, context):
 
 
 def main():
-    updater = Updater(token="1532365040:AAF1LBiZjYxogbjaycrAYpJaeCyqTORGPeM", use_context=True)
+    updater = Updater(token="1426846025:AAEIZRRjKovS6svKiuwOwT__hEuFlPVxS60", use_context=True)
     dp = updater.dispatcher
 
     dp.add_handler(CommandHandler("help", help))
